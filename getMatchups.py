@@ -36,5 +36,3 @@ for day in today['dates']:
         for plr in homeRoster['roster']:
             if plr['position']['abbreviation'] != 'P':
                 print(f"{plr['person']['fullName']},{awayPitcher}")
-
-        print()
